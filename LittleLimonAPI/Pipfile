@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-debug-toolbar = "*"
+django-extensions = "*"
+ipython = "*"
+notebook = "*"
+djangorestframework-xml = "*"
+djangorestframework-csv = "*"
+djangorestframework-yaml = "*"
+bleach = "*"
+django-filter = "*"
+djangorestframework-simplejwt = "~=5.2.2"
+django-environ = "*"
+psycopg2 = {extras = ["binary"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
